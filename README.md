@@ -1,6 +1,6 @@
 # Weather App
 
-with [->API](https://openweathermap.org/)
+with OpenWeatherMap[->API](https://openweathermap.org/)
 
 
 ``` 
