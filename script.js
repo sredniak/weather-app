@@ -13,7 +13,7 @@ const API_UNITS = '&units=metric'
 
 
 const getWeather = () => {
-    const city = input.value || 'Gdansk' //jesli nic nie podamy w inpucie to wyswietl londyn
+    const city = input.value || 'Gdansk' //jesli nic nie podamy w inpucie to wyswietl Gdańsk
     const URL = API_LINK + city + API_KEY + API_UNITS
 
     axios.get(URL).then(res => {
